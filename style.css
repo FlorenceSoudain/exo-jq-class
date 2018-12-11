@@ -1,0 +1,36 @@
+#global {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rond {
+    border: solid black 1px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 35px;
+}
+
+.carre {
+    border: solid black 1px;
+    width: 100px;
+    height: 100px;
+    margin: 35px;
+}
+
+.losange {
+    border: solid black 1px;
+    width: 100px;
+    height: 100px;
+    margin: 35px;
+    transform: rotate(-45deg);
+}
+
+.plein {
+    background-color: brown;
+}
+
+.vide {
+    background-color: Window;
+}
