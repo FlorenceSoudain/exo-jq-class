@@ -19,25 +19,47 @@ rond.click(function () {
 });
 
 $('.carre:nth-child(1)').click(function () {
-    $('.L1').toggleClass('plein');
+    if($('.carre:nth-child(1)').hasClass('plein')){
+        $('.L1').removeClass('plein');
+    }
+    else {
+        $('.L1').addClass('plein');
+    }
 });
 
 $('.carre:nth-child(2)').click(function () {
-    $('.L2').toggleClass('plein');
-});
-
-$('.carre:nth-child(3)').click(function () {
-    $('.L3').toggleClass('plein');
+    if($('.carre:nth-child(2)').hasClass('plein')){
+        $('.L2').removeClass('plein');
+    }
+    else {
+        $('.L2').addClass('plein');
+    }
 });
 
 $('.carre:nth-child(4)').click(function () {
-    $('.L4').toggleClass('plein');
+    if($('.carre:nth-child(4)').hasClass('plein')){
+        $('.L4').removeClass('plein');
+    }
+    else {
+        $('.L4').addClass('plein');
+    }
 });
 
 $('.carre:nth-child(5)').click(function () {
-    $('.L5').toggleClass('plein');
+    if($('.carre:nth-child(5)').hasClass('plein')){
+        $('.L5').removeClass('plein');
+    }
+    else {
+        $('.L5').addClass('plein');
+    }
 });
 
 losange.click(function () {
-    $('.L3, .C3').toggleClass('plein');
+    if(losange.hasClass('plein')){
+        $('.L3, .C3').removeClass('plein');
+    }
+    else {
+        $('.L3, .C3').addClass('plein');
+    }
+
 });
