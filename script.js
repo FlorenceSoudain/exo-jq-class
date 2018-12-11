@@ -25,6 +25,9 @@ $('.carre:nth-child(1)').click(function () {
     else {
         $('.L1').addClass('plein');
     }
+    /**if(losange.hasClass('plein')){
+        $('.L3, .C3').addClass('plein');
+    }**/
 });
 
 $('.carre:nth-child(2)').click(function () {
